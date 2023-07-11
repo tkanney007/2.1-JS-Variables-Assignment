@@ -20,6 +20,7 @@ console.log(
 );
 
 //4. Write code that would answer this question: Did the student pass?
+console.log("Did the student pass?");
 console.log(
   average >= passingGrade
     ? `Yes ${studentFirstName} ${studentLastName} has passed.`
