@@ -23,6 +23,6 @@ console.log(
 console.log("Did the student pass?");
 console.log(
   average >= passingGrade
-    ? `Yes ${studentFirstName} ${studentLastName} has passed.`
-    : `No ${studentFirstName} ${studentLastName} has failed.`
+    ? `Yes ${studentFirstName} ${studentLastName} has passed as their average of ${average} is >= to the passing grade of ${passingGrade}.`
+    : `No ${studentFirstName} ${studentLastName} has failed as their average of ${average} is not >= to the passing grade of ${passingGrade}.`
 );
